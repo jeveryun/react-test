@@ -1,5 +1,7 @@
-import React from 'react'
-import ReactDom from 'react-dom'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-ReactDom.render(<App />, document.getElementById('root'))
+// console.log(jsx);
+
+ReactDOM.render(<App title="开课吧真不错" />, document.getElementById("root"));
