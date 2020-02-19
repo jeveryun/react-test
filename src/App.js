@@ -1,4 +1,5 @@
 import React from "react";
+
 import JsxTest from "./components/JsxTest";
 import StateMgt from "./components/StateMgt";
 import EventHandle from "./components/EventHandle";
@@ -9,6 +10,8 @@ import HooksTest from "./components/HooksTest";
 import FormTest from "./components/JFormTest";
 import Dialog, {Dialog2} from "./components/Dialog";
 import TreeNode from "./components/TreeNode";
+import ReduxTest from "./components/ReduxTest";
+import MyReduxTest from "./components/MyReduxTest";
 
 // 函数式组件
 // class App extends Component {
@@ -41,7 +44,9 @@ function App(props) {
       {/* <FormTest /> */}
       {/* <Dialog>something</Dialog>
       <Dialog2>something</Dialog2> */}
-      <TreeNode />
+      {/* <TreeNode /> */}
+      {/* <ReduxTest /> */}
+      <MyReduxTest />
     </div>
   );
 }
