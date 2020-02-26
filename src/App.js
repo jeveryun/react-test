@@ -1,17 +1,19 @@
-import React from "react";
+import React from 'react'
 
-import JsxTest from "./components/JsxTest";
-import StateMgt from "./components/StateMgt";
-import EventHandle from "./components/EventHandle";
-import ContextTest from "./components/ContextTest";
-import HocTest from "./components/HocTest";
-import Composition from "./components/Composition";
-import HooksTest from "./components/HooksTest";
-import FormTest from "./components/JFormTest";
-import Dialog, {Dialog2} from "./components/Dialog";
-import TreeNode from "./components/TreeNode";
-import ReduxTest from "./components/ReduxTest";
-import MyReduxTest from "./components/MyReduxTest";
+import JsxTest from './components/JsxTest'
+import StateMgt from './components/StateMgt'
+import EventHandle from './components/EventHandle'
+import ContextTest from './components/ContextTest'
+import HocTest from './components/HocTest'
+import Composition from './components/Composition'
+import HooksTest from './components/HooksTest'
+import FormTest from './components/JFormTest'
+import Dialog, { Dialog2 } from './components/Dialog'
+import TreeNode from './components/TreeNode'
+import ReduxTest from './components/ReduxTest'
+import MyReduxTest from './components/MyReduxTest'
+import RouterTest from './components/RouterTest'
+import MyRouterTest from './components/MyRouterTest'
 
 // 函数式组件
 // class App extends Component {
@@ -46,9 +48,11 @@ function App(props) {
       <Dialog2>something</Dialog2> */}
       {/* <TreeNode /> */}
       {/* <ReduxTest /> */}
-      <MyReduxTest />
+      {/* <MyReduxTest /> */}
+      {/* <RouterTest /> */}
+      <MyRouterTest />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
